@@ -34,7 +34,7 @@ fold along x=5<br/>
 
 The first section is a list of dots on the transparent paper. 0,0 represents the top-left coordinate. The first value, x, increases to the right. The second value, y, increases downward. So, the coordinate 3,0 is to the right of 0,0, and the coordinate 0,7 is below 0,0. The coordinates in this example form the following pattern, where # is a dot on the paper and . is an empty, unmarked position:<br/><br/>
 
-<code>...#..#..#.<br/>
+<pre><code>...#..#..#.<br/>
 ....#......<br/>
 ...........<br/>
 #..........<br/>
@@ -49,7 +49,7 @@ The first section is a list of dots on the transparent paper. 0,0 represents the
 ......#...#<br/>
 #..........<br/>
 #.#........<br/>
-</code>
+</code></pre>
 Then, there is a list of fold instructions. Each instruction indicates a line on the transparent paper and wants you to fold the paper up (for horizontal y=... lines) or left (for vertical x=... lines). In this example, the first fold instruction is fold along y=7, which designates the line formed by all of the positions where y is 7 (marked here with -):<br/><br/>
 
 <code>...#..#..#.
