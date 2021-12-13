@@ -7,11 +7,11 @@ Congratulations on your purchase! To activate this infrared thermal imaging
 camera system, please enter the code found on page 1 of the manual.
 Apparently, the Elves have never used this feature. To your surprise, you manage to find the manual; as you go to open it, page 1 falls out. It's a large sheet of transparent paper! The transparent paper is marked with random dots and includes instructions on how to fold it up (your puzzle input). For example:
 
-6,10__
-0,14__
-9,10__
-0,3__
-10,4__
+6,10
+0,14
+9,10
+0,3
+10,4
 4,11
 6,0
 6,12
@@ -30,7 +30,7 @@ fold along y=7
 fold along x=5
 The first section is a list of dots on the transparent paper. 0,0 represents the top-left coordinate. The first value, x, increases to the right. The second value, y, increases downward. So, the coordinate 3,0 is to the right of 0,0, and the coordinate 0,7 is below 0,0. The coordinates in this example form the following pattern, where # is a dot on the paper and . is an empty, unmarked position:
 
-...#..#..#.
+...#..#..#.<br/>
 ....#......
 ...........
 #..........
