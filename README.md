@@ -7,11 +7,11 @@ Congratulations on your purchase! To activate this infrared thermal imaging
 camera system, please enter the code found on page 1 of the manual.
 Apparently, the Elves have never used this feature. To your surprise, you manage to find the manual; as you go to open it, page 1 falls out. It's a large sheet of transparent paper! The transparent paper is marked with random dots and includes instructions on how to fold it up (your puzzle input). For example:
 
-6,10
-0,14
-9,10
-0,3
-10,4
+6,10__
+0,14__
+9,10__
+0,3__
+10,4__
 4,11
 6,0
 6,12
