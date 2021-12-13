@@ -8,47 +8,47 @@ camera system, please enter the code found on page 1 of the manual.
 Apparently, the Elves have never used this feature. To your surprise, you manage to find the manual; as you go to open it, page 1 falls out. It's a large sheet of transparent paper! The transparent paper is marked with random dots and includes instructions on how to fold it up (your puzzle input). For example:<br/><br/>
 
 <pre><code>
-6,10<br/>
-0,14<br/>
-9,10<br/>
-0,3<br/>
-10,4<br/>
-4,11<br/>
-6,0<br/>
-6,12<br/>
-4,1<br/>
-0,13<br/>
-10,12<br/>
-3,4<br/>
-3,0<br/>
-8,4<br/>
-1,10<br/>
-2,14<br/>
-8,10<br/>
-9,0<br/>
+6,10
+0,14
+9,10
+0,3
+10,4
+4,11
+6,0<
+6,12
+4,1
+0,13
+10,12
+3,4
+3,0
+8,4
+1,10
+2,14
+8,10
+9,0
 <br/>
-fold along y=7<br/>
-fold along x=5<br/>
+fold along y=7
+fold along x=5
 </code>
 </pre>
 
 The first section is a list of dots on the transparent paper. 0,0 represents the top-left coordinate. The first value, x, increases to the right. The second value, y, increases downward. So, the coordinate 3,0 is to the right of 0,0, and the coordinate 0,7 is below 0,0. The coordinates in this example form the following pattern, where # is a dot on the paper and . is an empty, unmarked position:<br/><br/>
 
-<pre><code>...#..#..#.<br/>
-....#......<br/>
-...........<br/>
-#..........<br/>
-...#....#.#<br/>
-...........<br/>
-...........<br/>
-...........<br/>
-...........<br/>
-...........<br/>
-.#....#.##.<br/>
-....#......<br/>
-......#...#<br/>
-#..........<br/>
-#.#........<br/>
+<pre><code>...#..#..#.
+....#......
+...........
+#..........
+...#....#.#
+...........
+...........
+...........
+...........
+...........
+.#....#.##.
+....#......
+......#...#
+#..........
+#.#........
 </code></pre>
 Then, there is a list of fold instructions. Each instruction indicates a line on the transparent paper and wants you to fold the paper up (for horizontal y=... lines) or left (for vertical x=... lines). In this example, the first fold instruction is fold along y=7, which designates the line formed by all of the positions where y is 7 (marked here with -):<br/><br/>
 
