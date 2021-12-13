@@ -52,7 +52,7 @@ The first section is a list of dots on the transparent paper. 0,0 represents the
 </code></pre>
 Then, there is a list of fold instructions. Each instruction indicates a line on the transparent paper and wants you to fold the paper up (for horizontal y=... lines) or left (for vertical x=... lines). In this example, the first fold instruction is fold along y=7, which designates the line formed by all of the positions where y is 7 (marked here with -):<br/><br/>
 
-<code>...#..#..#.
+<pre><code>...#..#..#.
 ....#......
 ...........
 #..........
@@ -67,7 +67,7 @@ Then, there is a list of fold instructions. Each instruction indicates a line on
 ......#...#
 #..........
 #.#........
-</code>
+</code></pre>
 Because this is a horizontal line, fold the bottom half up. Some of the dots might end up overlapping after the fold is complete, but dots will never appear exactly on a fold line. The result of doing this fold looks like this:<br/><br/>
 
 <code>#.##..#..#.
