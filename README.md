@@ -70,14 +70,14 @@ Then, there is a list of fold instructions. Each instruction indicates a line on
 </code></pre>
 Because this is a horizontal line, fold the bottom half up. Some of the dots might end up overlapping after the fold is complete, but dots will never appear exactly on a fold line. The result of doing this fold looks like this:<br/><br/>
 
-<code>#.##..#..#.
+<pre><code>#.##..#..#.
 #...#......
 ......#...#
 #...#......
 .#.#..#.###
 ...........
 ...........
-</code>
+</code></pre>
 Now, only 17 dots are visible.<br/><br/>
 
 Notice, for example, the two dots in the bottom left corner before the transparent paper is folded; after the fold is complete, those dots appear in the top left corner (at 0,0 and 0,1). Because the paper is transparent, the dot just below them in the result (at 0,3) remains visible, as it can be seen through the transparent paper.<br/><br/>
@@ -86,24 +86,24 @@ Also notice that some dots can end up overlapping; in this case, the dots merge 
 
 The second fold instruction is fold along x=5, which indicates this line:<br/><br/>
 
-<code>#.##.|#..#.
+<pre><code>#.##.|#..#.
 #...#|.....
 .....|#...#
 #...#|.....
 .#.#.|#.###
 .....|.....
 .....|.....
-</code>
+</code></pre>
 Because this is a vertical line, fold left:
 
-<code>#####
+<pre><code>#####
 #...#
 #...#
 #...#
 #####
 .....
 .....
-</code>
+</code></pre>
 The instructions made a square!<br/>
 
 The transparent paper is pretty big, so for now, focus on just completing the first fold. After the first fold in the example above, 17 dots are visible - dots that end up overlapping after the fold is completed count as a single dot.
